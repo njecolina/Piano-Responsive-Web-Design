@@ -50,6 +50,27 @@ html {
   top: 23px;
 }
 
+a {
+  color: Ghostwhite;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  color: Ghostwhite;
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  padding: 20px;
+  z-index: 5;
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  border-radius: 10%;
+}
+
 @media (max-width: 768px) {
   #piano {
     width: 358px;
